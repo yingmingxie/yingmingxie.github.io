@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="Spin-orbit-parity coupled superconductivity schematic">
+  <rect width="900" height="520" fill="#f7fbff"/>
+  <g transform="translate(450 245)">
+    <ellipse cx="0" cy="0" rx="260" ry="132" fill="#00529b" opacity="0.09"/>
+    <ellipse cx="0" cy="0" rx="260" ry="132" fill="none" stroke="#00529b" stroke-width="4"/>
+    <path d="M-230 0 C-160 -95 -70 -95 0 0 C70 95 160 95 230 0" fill="none" stroke="#d8971b" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-230 0 C-160 95 -70 95 0 0 C70 -95 160 -95 230 0" fill="none" stroke="#00529b" stroke-width="6" stroke-linecap="round"/>
+    <g fill="none" stroke="#10284a" stroke-width="4" stroke-linecap="round">
+      <path d="M-145 -36 L-105 -72 L-65 -36"/>
+      <path d="M105 72 L145 36 L185 72"/>
+      <path d="M-20 -96 V-40 M-48 -68 H8"/>
+      <path d="M20 96 V40 M48 68 H-8"/>
+    </g>
+  </g>
+  <text x="98" y="446" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" fill="#10284a">spin-orbit-parity coupled superconductivity</text>
+</svg>

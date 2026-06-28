@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 620" role="img" aria-label="Abstract kagome lattice and Brillouin-zone background">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a2941"/>
+      <stop offset="0.58" stop-color="#2c3e58"/>
+      <stop offset="1" stop-color="#526176"/>
+    </linearGradient>
+    <pattern id="kagome" width="144" height="124.7" patternUnits="userSpaceOnUse">
+      <g fill="none" stroke="#c7d5e8" stroke-width="1.35" opacity="0.46">
+        <path d="M0 62.35 L36 0 L108 0 L144 62.35 L108 124.7 L36 124.7 Z"/>
+        <path d="M36 0 L72 62.35 L108 0"/>
+        <path d="M36 124.7 L72 62.35 L108 124.7"/>
+        <path d="M0 62.35 L72 62.35 L144 62.35"/>
+      </g>
+      <g fill="#eef4ff" opacity="0.42">
+        <circle cx="36" cy="0" r="3.1"/>
+        <circle cx="108" cy="0" r="3.1"/>
+        <circle cx="0" cy="62.35" r="3.1"/>
+        <circle cx="72" cy="62.35" r="3.1"/>
+        <circle cx="144" cy="62.35" r="3.1"/>
+        <circle cx="36" cy="124.7" r="3.1"/>
+        <circle cx="108" cy="124.7" r="3.1"/>
+      </g>
+    </pattern>
+    <filter id="soften" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.5"/>
+    </filter>
+    <radialGradient id="berryHotspot" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#f5c45e" stop-opacity="0.72"/>
+      <stop offset="0.45" stop-color="#7fb6ff" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#7fb6ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bandLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#cfe3ff" stop-opacity="0.08"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#cfe3ff" stop-opacity="0.08"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="620" fill="url(#bg)"/>
+  <rect x="520" y="-40" width="1120" height="720" fill="url(#kagome)" opacity="0.42"/>
+
+  <g opacity="0.48" filter="url(#soften)">
+    <ellipse cx="1165" cy="310" rx="260" ry="168" fill="url(#berryHotspot)"/>
+    <ellipse cx="1360" cy="470" rx="210" ry="120" fill="#6fa7ec" opacity="0.18"/>
+  </g>
+
+  <g transform="translate(1035 316)" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.76">
+    <path d="M-250 105 C-178 54 -105 20 -36 -2 C14 -18 53 -50 103 -96 C150 -139 201 -158 260 -169" stroke="url(#bandLine)" stroke-width="4.2"/>
+    <path d="M-250 -105 C-178 -54 -105 -20 -36 2 C14 18 53 50 103 96 C150 139 201 158 260 169" stroke="url(#bandLine)" stroke-width="4.2"/>
+    <path d="M-235 0 C-148 -38 -70 -44 0 -4 C70 36 142 38 235 0" stroke="#f0f6ff" stroke-width="2.2" opacity="0.45"/>
+    <path d="M-18 -20 L18 20 M-18 20 L18 -20" stroke="#f2c66d" stroke-width="2.4" opacity="0.7"/>
+  </g>
+
+  <g transform="translate(1210 382)" opacity="0.66">
+    <g fill="none" stroke-linejoin="round">
+      <rect x="-210" y="-62" width="126" height="124" rx="8" fill="#dceaff" opacity="0.12" stroke="#eaf2ff" stroke-width="2"/>
+      <rect x="84" y="-62" width="126" height="124" rx="8" fill="#dceaff" opacity="0.12" stroke="#eaf2ff" stroke-width="2"/>
+      <rect x="-84" y="-38" width="168" height="76" rx="12" fill="#f2c66d" opacity="0.1" stroke="#f2c66d" stroke-width="2"/>
+      <path d="M-84 -38 L-84 38 M84 -38 L84 38" stroke="#f2c66d" stroke-width="2.2" opacity="0.78"/>
+      <path d="M-170 0 C-110 -28 -52 -28 0 0 C52 28 110 28 170 0" stroke="#f7fbff" stroke-width="3" stroke-linecap="round"/>
+      <path d="M-170 25 C-110 52 -52 52 0 25 C52 -2 110 -2 170 25" stroke="#8ec7ff" stroke-width="2.1" stroke-linecap="round" opacity="0.72"/>
+      <path d="M-36 0 L36 0" stroke="#f2c66d" stroke-width="3" stroke-linecap="round"/>
+      <path d="M18 -14 L38 0 L18 14" stroke="#f2c66d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-weight="700" opacity="0.72">
+      <text x="-162" y="-78" font-size="26">S</text>
+      <text x="-13" y="-52" font-size="19">N</text>
+      <text x="138" y="-78" font-size="26">S</text>
+    </g>
+    <g fill="#ffffff" stroke="#16375e" stroke-width="0.45" paint-order="stroke fill" font-family="Georgia, 'Times New Roman', serif" font-style="italic" opacity="0.72">
+      <text x="-192" y="92" font-size="24">Δe<tspan baseline-shift="super" font-size="16">iφ<tspan baseline-shift="sub" font-size="12">L</tspan></tspan></text>
+      <text x="86" y="92" font-size="24">Δe<tspan baseline-shift="super" font-size="16">iφ<tspan baseline-shift="sub" font-size="12">R</tspan></tspan></text>
+      <text x="-34" y="-75" font-size="24">I<tspan baseline-shift="sub" font-size="16">s</tspan> ∝ sin φ</text>
+    </g>
+  </g>
+
+  <g fill="#ffffff" stroke="#16375e" stroke-width="0.6" paint-order="stroke fill" font-family="Georgia, 'Times New Roman', serif" font-style="italic" opacity="0.38">
+    <text x="570" y="92" font-size="40">iℏ∂ψ/∂t = Hψ</text>
+    <text x="1045" y="112" font-size="36">E = mc²</text>
+    <text x="1260" y="250" font-size="34">[x, p] = iℏ</text>
+    <text x="670" y="218" font-size="33">H(k)|uₙ(k)⟩ = Eₙ(k)|uₙ(k)⟩</text>
+    <text x="1000" y="455" font-size="35">C = 1/2π ∫ Ω(k) d²k</text>
+    <text x="720" y="540" font-size="33">H<tspan baseline-shift="sub" font-size="23">BdG</tspan> Ψ = E Ψ</text>
+    <text x="1310" y="385" font-size="34">γ = γ†</text>
+    <text x="520" y="390" font-size="36">σ · k</text>
+    <text x="360" y="118" font-size="32">S = ∫ L dt</text>
+    <text x="420" y="500" font-size="32">Z = Tr e<tspan baseline-shift="super" font-size="22">-βH</tspan></text>
+    <text x="260" y="245" font-size="30">Δ = -VΣ<tspan baseline-shift="sub" font-size="21">k</tspan> ⟨c<tspan baseline-shift="sub" font-size="21">-k↓</tspan>c<tspan baseline-shift="sub" font-size="21">k↑</tspan>⟩</text>
+    <text x="335" y="335" font-size="29">σ<tspan baseline-shift="sub" font-size="20">xy</tspan> = e²/h · C</text>
+    <text x="575" y="600" font-size="29">F = -k<tspan baseline-shift="sub" font-size="20">B</tspan>T ln Z</text>
+    <text x="1115" y="185" font-size="28">A<tspan baseline-shift="sub" font-size="20">n</tspan>(k) = i⟨u<tspan baseline-shift="sub" font-size="20">n</tspan>|∇<tspan baseline-shift="sub" font-size="20">k</tspan>|u<tspan baseline-shift="sub" font-size="20">n</tspan>⟩</text>
+    <text x="1165" y="535" font-size="28">χ(q,ω) = -i∫dt e<tspan baseline-shift="super" font-size="20">iωt</tspan>⟨[ρ(t),ρ(0)]⟩</text>
+    <text x="895" y="330" font-size="27">H = Σ<tspan baseline-shift="sub" font-size="19">k</tspan> ψ†<tspan baseline-shift="sub" font-size="19">k</tspan> h(k) ψ<tspan baseline-shift="sub" font-size="19">k</tspan></text>
+    <text x="1375" y="95" font-size="27">v = 1/ℏ ∂E/∂k</text>
+    <text x="1380" y="600" font-size="27">Ω<tspan baseline-shift="sub" font-size="19">n</tspan> = ∇<tspan baseline-shift="sub" font-size="19">k</tspan> × A<tspan baseline-shift="sub" font-size="19">n</tspan></text>
+  </g>
+
+  <g transform="translate(1160 312)" opacity="0.38">
+    <path d="M0 -132 L114 -66 L114 66 L0 132 L-114 66 L-114 -66 Z" fill="none" stroke="#d4dbe7" stroke-width="2"/>
+    <path d="M0 -132 L0 132 M-114 -66 L114 66 M114 -66 L-114 66" fill="none" stroke="#d4dbe7" stroke-width="1.2" opacity="0.58"/>
+    <g fill="#d4dbe7">
+      <circle cx="0" cy="-132" r="5"/>
+      <circle cx="114" cy="-66" r="5"/>
+      <circle cx="114" cy="66" r="5"/>
+      <circle cx="0" cy="132" r="5"/>
+      <circle cx="-114" cy="66" r="5"/>
+      <circle cx="-114" cy="-66" r="5"/>
+    </g>
+  </g>
+
+</svg>

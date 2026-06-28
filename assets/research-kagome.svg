@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="Kagome lattice, loop current, and NV-center schematic">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef5ff"/>
+      <stop offset="1" stop-color="#dce9f8"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#c9822a"/>
+    </marker>
+  </defs>
+  <rect width="900" height="520" rx="18" fill="url(#bg)"/>
+  <g transform="translate(78 72)" fill="none" stroke="#005bac" stroke-width="6" stroke-linejoin="round">
+    <path d="M0 104 L60 0 L180 0 L240 104 L180 208 L60 208 Z"/>
+    <path d="M180 0 L300 0 L360 104 L300 208 L180 208 L120 104 Z"/>
+    <path d="M360 104 L480 104 L540 208 L480 312 L360 312 L300 208 Z"/>
+    <path d="M60 208 L180 208 L240 312 L180 416 L60 416 L0 312 Z"/>
+    <path d="M0 104 H240 M120 104 H360 M300 208 H540 M60 208 H300 M0 312 H240"/>
+    <path d="M60 0 L120 104 L60 208 M180 0 L120 104 L180 208 M300 0 L240 104 L300 208"/>
+  </g>
+  <g fill="#fff" stroke="#005bac" stroke-width="5">
+    <circle cx="138" cy="72" r="12"/>
+    <circle cx="258" cy="72" r="12"/>
+    <circle cx="198" cy="176" r="12"/>
+    <circle cx="318" cy="176" r="12"/>
+    <circle cx="438" cy="176" r="12"/>
+    <circle cx="378" cy="280" r="12"/>
+    <circle cx="498" cy="280" r="12"/>
+    <circle cx="198" cy="384" r="12"/>
+  </g>
+  <g fill="none" stroke="#c9822a" stroke-width="9" stroke-linecap="round" marker-end="url(#arrow)">
+    <path d="M620 136 C698 124 742 168 724 238 C706 309 632 328 586 280"/>
+    <path d="M658 325 C610 312 585 266 603 219"/>
+  </g>
+  <g transform="translate(642 126)">
+    <path d="M74 0 L138 112 H10 Z" fill="#ffffff" stroke="#005bac" stroke-width="5"/>
+    <circle cx="74" cy="76" r="18" fill="#005bac"/>
+    <text x="74" y="82" text-anchor="middle" font-family="Inter, Arial" font-size="20" font-weight="800" fill="#fff">NV</text>
+  </g>
+  <text x="76" y="474" font-family="Inter, Arial" font-size="30" font-weight="800" fill="#10284a">Kagome charge order and loop currents</text>
+</svg>

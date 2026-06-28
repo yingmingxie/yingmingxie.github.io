@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="Orbital FFLO pairing in a moire Ising superconductor">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef5ff"/>
+      <stop offset="1" stop-color="#e1ebf8"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#c9822a"/>
+    </marker>
+  </defs>
+  <rect width="900" height="520" rx="18" fill="url(#bg)"/>
+  <g transform="translate(88 68)">
+    <path d="M0 110 C72 0 144 220 216 110 C288 0 360 220 432 110 C504 0 576 220 648 110" fill="none" stroke="#8aa3c2" stroke-width="6" stroke-linecap="round"/>
+    <path d="M0 260 C72 150 144 370 216 260 C288 150 360 370 432 260 C504 150 576 370 648 260" fill="none" stroke="#8aa3c2" stroke-width="6" stroke-linecap="round"/>
+    <path d="M42 188 C120 126 198 250 276 188 C354 126 432 250 510 188" fill="none" stroke="#005bac" stroke-width="10" stroke-linecap="round"/>
+    <path d="M166 188 H486" stroke="#c9822a" stroke-width="9" stroke-linecap="round" marker-end="url(#arrow)"/>
+    <circle cx="166" cy="188" r="18" fill="#fff" stroke="#005bac" stroke-width="7"/>
+    <circle cx="486" cy="188" r="18" fill="#fff" stroke="#005bac" stroke-width="7"/>
+    <text x="290" y="160" font-family="Inter, Arial" font-size="34" font-weight="800" fill="#c9822a">q</text>
+    <text x="48" y="48" font-family="Inter, Arial" font-size="26" font-weight="800" fill="#10284a">moiré Ising superconductor</text>
+    <text x="520" y="310" font-family="Inter, Arial" font-size="28" font-weight="800" fill="#005bac">orbital FFLO</text>
+  </g>
+</svg>

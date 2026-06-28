@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="Gate-defined topological Josephson junction schematic">
+  <rect width="900" height="520" fill="#f7fbff"/>
+  <g fill="none" stroke="#00529b" stroke-width="4" opacity="0.76">
+    <path d="M110 180 H790"/>
+    <path d="M110 340 H790"/>
+    <path d="M160 125 H740 M160 395 H740"/>
+  </g>
+  <g fill="#00529b" opacity="0.14">
+    <rect x="90" y="180" width="210" height="160" rx="14"/>
+    <rect x="600" y="180" width="210" height="160" rx="14"/>
+  </g>
+  <g fill="#f5c45e" opacity="0.35">
+    <rect x="328" y="164" width="244" height="192" rx="24"/>
+  </g>
+  <g fill="none" stroke="#10284a" stroke-width="5" stroke-linecap="round">
+    <path d="M310 260 C360 225 410 225 450 260 C490 295 540 295 590 260"/>
+    <path d="M450 120 V400"/>
+  </g>
+  <g fill="#d8971b">
+    <circle cx="450" cy="150" r="18"/>
+    <circle cx="450" cy="370" r="18"/>
+  </g>
+  <text x="72" y="456" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" fill="#10284a">gate-defined topological Josephson junction</text>
+</svg>

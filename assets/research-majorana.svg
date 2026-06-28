@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="Topological Josephson junction and Majorana end modes schematic">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#edf5ff"/>
+      <stop offset="1" stop-color="#dfeaf7"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="520" rx="18" fill="url(#bg)"/>
+  <g transform="translate(92 88)">
+    <rect x="0" y="118" width="716" height="70" rx="35" fill="#8aa3c2" opacity="0.45"/>
+    <rect x="102" y="130" width="512" height="46" rx="23" fill="#005bac" opacity="0.9"/>
+    <path d="M102 58 C112 60 112 153 132 153 C150 153 150 92 170 88 C190 84 192 153 216 153 C244 153 250 130 284 153" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M614 58 C604 60 604 153 584 153 C566 153 566 92 546 88 C526 84 524 153 500 153 C472 153 466 130 432 153" fill="none" stroke="#c7dcf3" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="102" cy="153" r="24" fill="#fff" stroke="#005bac" stroke-width="8"/>
+    <circle cx="614" cy="153" r="24" fill="#fff" stroke="#005bac" stroke-width="8"/>
+    <text x="82" y="250" font-family="Inter, Arial" font-size="42" font-weight="800" fill="#005bac">γ₁</text>
+    <text x="592" y="250" font-family="Inter, Arial" font-size="42" font-weight="800" fill="#005bac">γ₂</text>
+    <path d="M272 58 H444" stroke="#c9822a" stroke-width="8" stroke-linecap="round"/>
+    <path d="M426 38 L454 58 L426 78" fill="none" stroke="#c9822a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="286" y="36" font-family="Inter, Arial" font-size="26" font-weight="800" fill="#c9822a">phase control</text>
+  </g>
+  <text x="76" y="474" font-family="Inter, Arial" font-size="30" font-weight="800" fill="#10284a">Topological Josephson device with Majorana modes</text>
+</svg>

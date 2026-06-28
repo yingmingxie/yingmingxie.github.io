@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="Photon drag photovoltaic effect and quantum geometry schematic">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef5ff"/>
+      <stop offset="1" stop-color="#e7edf7"/>
+    </linearGradient>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#005bac"/>
+    </marker>
+    <marker id="arrow-gold" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#c9822a"/>
+    </marker>
+  </defs>
+  <rect width="900" height="520" rx="18" fill="url(#bg)"/>
+  <g transform="translate(76 92)">
+    <path d="M0 252 C84 44 172 354 260 150 C322 8 390 218 472 72" fill="none" stroke="#005bac" stroke-width="10" stroke-linecap="round"/>
+    <path d="M8 284 H520" stroke="#8aa3c2" stroke-width="5" stroke-linecap="round"/>
+    <path d="M80 74 L148 184 L216 74 L284 184 L352 74 L420 184" fill="none" stroke="#9ab0c9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="148" cy="184" r="17" fill="#fff" stroke="#005bac" stroke-width="7"/>
+    <circle cx="284" cy="184" r="17" fill="#fff" stroke="#005bac" stroke-width="7"/>
+    <path d="M526 108 H704" stroke="#c9822a" stroke-width="9" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+    <path d="M526 206 H704" stroke="#005bac" stroke-width="9" stroke-linecap="round" marker-end="url(#arrow-blue)"/>
+    <text x="540" y="90" font-family="Inter, Arial" font-size="26" font-weight="800" fill="#c9822a">photon momentum</text>
+    <text x="540" y="190" font-family="Inter, Arial" font-size="26" font-weight="800" fill="#005bac">photocurrent</text>
+  </g>
+  <text x="76" y="474" font-family="Inter, Arial" font-size="30" font-weight="800" fill="#10284a">Quantum geometry driven photovoltaic response</text>
+</svg>

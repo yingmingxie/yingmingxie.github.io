@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="Twisted bilayer graphene Josephson junction schematic">
+  <rect width="900" height="520" fill="#f7fbff"/>
+  <g transform="translate(450 260)" opacity="0.58">
+    <g fill="none" stroke="#00529b" stroke-width="2">
+      <path d="M-210 -120 L210 -120 L300 35 L210 190 L-210 190 L-300 35 Z"/>
+      <path d="M-210 -120 L-120 35 L-210 190 M-60 -120 L30 35 L-60 190 M90 -120 L180 35 L90 190"/>
+      <path d="M-300 35 H300"/>
+    </g>
+    <g transform="rotate(8)" fill="none" stroke="#d8971b" stroke-width="2">
+      <path d="M-210 -120 L210 -120 L300 35 L210 190 L-210 190 L-300 35 Z"/>
+      <path d="M-210 -120 L-120 35 L-210 190 M-60 -120 L30 35 L-60 190 M90 -120 L180 35 L90 190"/>
+      <path d="M-300 35 H300"/>
+    </g>
+  </g>
+  <g fill="none" stroke-linejoin="round">
+    <rect x="90" y="180" width="180" height="120" rx="10" fill="#00529b" opacity="0.16" stroke="#00529b" stroke-width="3"/>
+    <rect x="630" y="180" width="180" height="120" rx="10" fill="#00529b" opacity="0.16" stroke="#00529b" stroke-width="3"/>
+    <rect x="270" y="205" width="360" height="70" rx="16" fill="#f5c45e" opacity="0.18" stroke="#d8971b" stroke-width="3"/>
+    <path d="M160 240 C270 190 375 190 450 240 C525 290 630 290 740 240" stroke="#10284a" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <text x="122" y="158" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" fill="#10284a">S</text>
+  <text x="743" y="158" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" fill="#10284a">S</text>
+  <text x="350" y="430" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" fill="#10284a">φ₀ Josephson effect in moiré graphene</text>
+</svg>
