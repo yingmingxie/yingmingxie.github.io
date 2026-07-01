@@ -371,6 +371,7 @@ img {
   width: 112px;
   height: 112px;
   object-fit: cover;
+  object-position: center top;
   border-radius: 6px;
 }
 
