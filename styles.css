@@ -335,11 +335,23 @@ img {
 }
 
 .pi-bio {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr);
+  gap: 24px;
+  align-items: start;
   margin: 24px 0;
   padding: 22px 24px;
   border: 1px solid var(--line);
   border-radius: 6px;
   background: #f8fbff;
+}
+
+.pi-bio img {
+  width: 150px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 6px;
 }
 
 .pi-bio h3 {
@@ -368,6 +380,7 @@ img {
 }
 
 .news-panel .opening-box {
+  display: block;
   margin: 0 0 28px;
   padding: 0 0 26px;
   border-top: 0;
@@ -890,6 +903,14 @@ img {
   .member-card,
   .opening-box {
     grid-template-columns: 1fr;
+  }
+
+  .pi-bio {
+    grid-template-columns: 1fr;
+  }
+
+  .pi-bio img {
+    margin: 0 auto;
   }
 
   .feature-row.reverse .feature-art {
