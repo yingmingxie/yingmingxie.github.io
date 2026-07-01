@@ -334,6 +334,29 @@ img {
   color: var(--muted);
 }
 
+.pi-bio {
+  margin: 24px 0;
+  padding: 22px 24px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #f8fbff;
+}
+
+.pi-bio h3 {
+  margin: 0 0 12px;
+  color: var(--ink);
+  font-size: 22px;
+  line-height: 1.3;
+}
+
+.pi-bio p {
+  color: var(--muted);
+}
+
+.pi-bio p:last-child {
+  margin-bottom: 0;
+}
+
 .opening-box {
   display: grid;
   grid-template-columns: 112px minmax(0, 1fr);
