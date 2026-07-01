@@ -104,13 +104,15 @@ const translations = {
     "gallery.caption2": "Academic visits, invited talks, and workshops",
     "gallery.caption3": "Team activities, meals, and informal moments",
     "opening.title": "Opening",
-    "opening.intro": "The group has strong funding support and welcomes motivated undergraduate students, master students, PhD students, and postdocs interested in quantum condensed matter theory and computation.",
+    "opening.intro": "The group has strong funding support and welcomes motivated undergraduate students, master students, PhD students, and postdocs interested in quantum condensed matter theory and computation. We plan to recruit 1-2 PhD or master students each year.",
+    "opening.gradTitle": "PhD and Master Student Recruitment",
+    "opening.gradText": "We plan to recruit 1-2 PhD or master students each year. Students interested in quantum condensed matter theory and computation are welcome to contact Prof. Xie by email.",
     "opening.benefitsTitle": "Postdoctoral Benefits",
     "opening.benefit1": "Excellent research conditions with sufficient and stable funding support.",
     "opening.benefit2": "Annual salary of RMB 300,000-400,000 before tax, with competitive performance-based supplements. Postdocs supported by the Postdoctoral Innovation Talent Support Program, Shanghai Super Postdoctoral Program, SJTU Siyuan Postdoctoral Program (Overseas Talent Recruitment), and related programs may receive additional benefits on top of the base package.",
     "opening.benefit3": "During the appointment, SJTU provides postdoctoral apartments or housing subsidies, with benefits including children's schooling and childcare support, medical care, social insurance, and Shanghai hukou support for the postdoc and family according to relevant policies.",
     "opening.applyTitle": "How to Apply",
-    "opening.applyText": "Interested applicants are welcome to send a CV by email. We look forward to exploring the quantum world together.",
+    "opening.applyText": "Interested graduate students and postdoctoral applicants are welcome to send a CV by email. We look forward to exploring the quantum world together.",
     "footer.copy": "© <span data-year></span> XIE Lab, Shanghai Jiao Tong University"
   },
   zh: {
@@ -212,13 +214,15 @@ const translations = {
     "gallery.caption2": "学术访问、邀请报告和研讨会",
     "gallery.caption3": "组内活动、聚餐和日常片段",
     "opening.title": "招生招聘",
-    "opening.intro": "目前课题组经费充足，欢迎对量子凝聚态理论和计算感兴趣的本科生、硕士生、博士生和博士后联系加入。",
+    "opening.intro": "目前课题组经费充足，欢迎对量子凝聚态理论和计算感兴趣的本科生、硕士生、博士生和博士后联系加入。每年计划招收1-2名博士或硕士研究生。",
+    "opening.gradTitle": "博士/硕士研究生招生",
+    "opening.gradText": "课题组每年计划招收1-2名博士或硕士研究生。欢迎对量子凝聚态理论和计算感兴趣的同学发邮件联系谢应明副教授。",
     "opening.benefitsTitle": "博士后待遇与支持",
     "opening.benefit1": "提供良好的科研条件和充足稳定的经费支持。",
     "opening.benefit2": "年薪30-40万元（税前），根据表现给予有竞争力的奖励补贴，具体额度由导师及本人协商确定。支持申报“博士后创新人才支持计划”、上海市“超级博士后”、交大思源博后（海外引才）等项目的博士后，将在基础待遇上进行叠加。",
     "opening.benefit3": "聘期内由学校提供博士后公寓或住房补贴，享有子女入学、入托、医疗及其它社会保险，依政策办理本人及家属的上海户口。",
     "opening.applyTitle": "申请方式",
-    "opening.applyText": "感兴趣的同学请发送个人简历至邮箱。期待与你一起探索量子世界。",
+    "opening.applyText": "感兴趣的博士/硕士研究生申请者和博士后请发送个人简历至邮箱。期待与你一起探索量子世界。",
     "footer.copy": "© <span data-year></span> XIE Lab，上海交通大学"
   }
 };
