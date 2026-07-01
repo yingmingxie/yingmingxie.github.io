@@ -226,7 +226,7 @@ const translations = {
     "opening.benefit3": "聘期内由学校提供博士后公寓或住房补贴，享有子女入学、入托、医疗及其它社会保险，依政策办理本人及家属的上海户口。",
     "opening.applyTitle": "申请方式",
     "opening.applyText": "感兴趣的本科生、博士/硕士研究生申请者和博士后请发送个人简历至邮箱。期待与你一起探索量子世界。",
-    "opening.address": "办公室：理科实验楼群1号楼213；地址：上海交通大学闵行校区，上海市东川路800号。",
+    "opening.address": "办公室：理科实验楼群1号楼213；地址：上海交通大学（闵行校区），上海市闵行区东川路800号。",
     "footer.copy": "© <span data-year></span> XIE Lab，上海交通大学"
   }
 };
