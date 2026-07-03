@@ -133,7 +133,7 @@ const translations = {
     "home.welcome1": "这里是上海交通大学物理与天文学院谢应明副教授的理论凝聚态物理课题组，希望用场论、群论及数值计算等方法预测和理解物质的量子特性，并与实验合作者紧密合作，探索量子科学的奥秘。",
     "home.welcome2": "目前的研究兴趣包括低维关联量子体系理论，拓扑超导及拓扑量子计算，量子材料的输运及调控理论等。",
     "home.piBioTitle": "课题组负责人简介",
-    "home.piBio1": "谢应明于2016年获得北京师范大学物理学士学位，2021年获得香港科技大学物理学博士学位，博士期间师从 Kam Tuen Law 教授，并与 MIT 的 Patrick A. Lee 教授保持合作。",
+    "home.piBio1": "谢应明于2016年获得北京师范大学物理学学士学位，2021年获得香港科技大学物理学博士学位，博士期间师从 Kam Tuen Law 教授，并与 MIT 的 Patrick A. Lee 教授保持合作。",
     "home.piBio2": "博士毕业后，先后在香港科技大学及日本理化研究所 Naoto Nagaosa 教授课题组开展博士后研究，并曾以访问博士后的身份到 Caltech 的 Jason Alicea 教授课题组开展合作研究。2025年入选国家优秀青年科学基金项目（海外）。2026年6月加入上海交通大学物理与天文学院凝聚态物理研究所，担任长聘教轨副教授、博导、独立 PI。",
     "home.piBio3": "截至2026年4月，已发表学术论文31篇，Google Scholar 总引用1900余次，h-index 为21；其中以第一作者或通讯作者（含共同）发表论文20多篇，包括 Nature Physics、Nature Materials、Physical Review Letters、PNAS 和 Nature Communications 等，并多次担任 Nature、Nature Physics、Physical Review Letters、Nature Communications 等期刊审稿人。",
     "opening.shortTitle": "招生招聘",
