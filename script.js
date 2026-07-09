@@ -316,4 +316,4 @@ window.addEventListener("hashchange", () => {
 });
 
 showPage(window.location.hash.replace("#", "") || "home", false);
-setLanguage(localStorage.getItem("xieLabLang") || "en");
+setLanguage("en");
