@@ -6,7 +6,7 @@ const pageLinks = [...document.querySelectorAll("[data-page-link]")];
 const pages = [...document.querySelectorAll("[data-page]")];
 const translations = {
   en: {
-    "brand.subtitle": "Quantum Materials Theory @ SJTU",
+    "brand.subtitle": "Quantum Matter Theory @ SJTU",
     "nav.home": "Home",
     "nav.research": "Research",
     "nav.members": "Members",
@@ -15,7 +15,7 @@ const translations = {
     "nav.gallery": "Gallery",
     "nav.opening": "Opening",
     "hero.kicker": "XIE Lab",
-    "hero.title": "Quantum Materials Theory",
+    "hero.title": "Quantum Matter Theory",
     "hero.subtitle": "Topology · Correlation · Superconductivity · Quantum Geometry",
     "home.welcomeTitle": "Welcome to XIE Lab",
     "home.welcome1": "XIE Lab is the theoretical condensed matter physics group led by Prof. Ying-Ming Xie at the School of Physics and Astronomy, Shanghai Jiao Tong University. We use field theory, symmetry analysis, and numerical computation to predict and understand quantum properties of matter, working closely with experimental collaborators to explore quantum science.",
