@@ -32,29 +32,65 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Ying-Ming Xie",
-        "alternateName": ["Yingming Xie", "Ying Ming Xie", "谢应明", "Y.-M. Xie"],
-        "jobTitle": "Tenure-track Associate Professor, PhD Supervisor, Independent PI",
-        "affiliation": {
-          "@type": "CollegeOrUniversity",
-          "name": "Shanghai Jiao Tong University"
-        },
-        "worksFor": {
-          "@type": "ResearchOrganization",
-          "name": "XIE Lab"
-        },
-        "sameAs": [
-          "https://scholar.google.com/citations?user=sTvNNzkAAAAJ",
-          "http://arxiv.org/a/xie_y_3",
-          "https://sites.google.com/view/yingmingxie/research"
-        ],
-        "knowsAbout": [
-          "Quantum matter theory",
-          "Quantum materials theory",
-          "Topological superconductivity",
-          "Quantum geometry",
-          "Strong correlation"
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://yingmingxie.github.io/#ying-ming-xie",
+            "name": "Ying-Ming Xie",
+            "alternateName": ["Yingming Xie", "Ying Ming Xie", "谢应明", "Y.-M. Xie"],
+            "url": "https://yingmingxie.github.io/",
+            "image": "https://yingmingxie.github.io/assets/yingming-xie.jpg",
+            "jobTitle": "Tenure-track Associate Professor, PhD Supervisor, Independent PI",
+            "affiliation": {
+              "@type": "CollegeOrUniversity",
+              "name": "Shanghai Jiao Tong University",
+              "url": "https://www.sjtu.edu.cn/"
+            },
+            "worksFor": {
+              "@type": "ResearchOrganization",
+              "@id": "https://yingmingxie.github.io/#xie-lab",
+              "name": "XIE Lab",
+              "url": "https://yingmingxie.github.io/"
+            },
+            "sameAs": [
+              "https://scholar.google.com/citations?user=sTvNNzkAAAAJ",
+              "http://arxiv.org/a/xie_y_3",
+              "https://sites.google.com/view/yingmingxie/research"
+            ],
+            "knowsAbout": [
+              "Quantum matter theory",
+              "Quantum materials theory",
+              "Topological superconductivity",
+              "Quantum geometry",
+              "Strong correlation"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://yingmingxie.github.io/#website",
+            "url": "https://yingmingxie.github.io/",
+            "name": "Ying-Ming Xie 谢应明 | XIE Lab",
+            "publisher": {
+              "@id": "https://yingmingxie.github.io/#ying-ming-xie"
+            },
+            "inLanguage": ["en", "zh-CN"]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://yingmingxie.github.io/#webpage",
+            "url": "https://yingmingxie.github.io/",
+            "name": "Ying-Ming Xie 谢应明 | XIE Lab | Quantum Matter Theory at SJTU",
+            "isPartOf": {
+              "@id": "https://yingmingxie.github.io/#website"
+            },
+            "about": {
+              "@id": "https://yingmingxie.github.io/#ying-ming-xie"
+            },
+            "mainEntity": {
+              "@id": "https://yingmingxie.github.io/#ying-ming-xie"
+            },
+            "inLanguage": "en"
+          }
         ]
       }
     </script>
@@ -65,6 +101,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css?v=20260702c" />
+    <link rel="me" href="https://scholar.google.com/citations?user=sTvNNzkAAAAJ" />
+    <link rel="me" href="http://arxiv.org/a/xie_y_3" />
   </head>
   <body>
     <header class="site-header">
