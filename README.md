@@ -1,6 +1,6 @@
-# XIE Lab Academic Page
+# XIE Group Academic Page
 
-Static academic/lab homepage for Ying-Ming Xie and XIE Lab at Shanghai Jiao Tong University.
+Static academic/lab homepage for Ying-Ming Xie and XIE Group at Shanghai Jiao Tong University.
 
 ## Files
 
